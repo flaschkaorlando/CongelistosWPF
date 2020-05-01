@@ -1,0 +1,23 @@
+﻿<Window x:Class="Congelistos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Congelistos"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1280">
+
+    <Grid Name="vGridGeneral" >
+
+        <Grid.Background>
+            <ImageBrush ImageSource="/Imagenes/LogoEditado.png" Stretch="Uniform" Opacity="1"/>
+        </Grid.Background>
+        <Frame  Name="framePrincipal"   Margin="20,0,20,20"     Height="600" VerticalAlignment="Bottom"/>
+        <Button Name="botonClientes"    Content="Clientes"      HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Top" Width="200" Height="50" FontSize="20" Style="{DynamicResource BotonGeneral}" Click="botonClientes_Click"/>
+        <Button Name="botonPedidos"     Content="Pedidos"       HorizontalAlignment="Left" Margin="355,10,0,0" VerticalAlignment="Top" Width="200" Height="50" FontSize="20" Style="{DynamicResource BotonGeneral}" Click="botonPedidos_Click"/>
+        <Button Name="botonInsumos"     Content="Insumos"       HorizontalAlignment="Right" Margin="0,10,355,0" VerticalAlignment="Top" Width="200" Height="50" FontSize="20" Style="{DynamicResource BotonGeneral}" Click="botonInsumos_Click"/>
+        <Button Name="botonProveedores" Content="Proveedores"   HorizontalAlignment="Right" Margin="0,10,25,0" VerticalAlignment="Top" Width="200" Height="50" FontSize="20" Style="{DynamicResource BotonGeneral}" Click="botonProveedores_Click"/>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,26 @@
+﻿<Page x:Class="Congelistos.Paginas.Clientes"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Congelistos.Paginas"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1232"
+      Title="Clientes">
+
+    <Grid Background="Transparent">
+        <DataGrid Name="dataGridClientes" Opacity="0.7" HorizontalAlignment="Left" Margin="5,10,0,5" Width="600"/>
+        <Button Name="botonNuevo" Content="NUEVO" HorizontalAlignment="Right" Margin="0,10,5,0" VerticalAlignment="Top" Width="150" Height="40" FontSize="20" Click="botonNuevo_Click"/>
+        <Button Name="botonCargar" Content="CARGAR" HorizontalAlignment="Left" Margin="620,10,0,0" VerticalAlignment="Top" Width="150" Height="40" FontSize="20"/>
+        <Button Name="botonBorrar" Content="BORRAR" HorizontalAlignment="Left" Margin="620,550,0,5" VerticalAlignment="Bottom" Width="150" Height="40" FontSize="20"/>
+        <Button Name="botonEditar" Content="EDITAR" HorizontalAlignment="Right" Margin="0,550,226,5" VerticalAlignment="Bottom" Width="150" Height="40" FontSize="20"/>
+        <Button Name="botonGuardar" Content="GUARDAR" HorizontalAlignment="Right" Margin="0,0,5,5" VerticalAlignment="Bottom" Width="150" Height="40" FontSize="20"/>
+
+        <TextBox Name="textNombre"    HorizontalAlignment="Right" Margin="0,0,10,400" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="NOMBRE" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
+        <TextBox Name="textApellido"  HorizontalAlignment="Right" Margin="0,0,10,330" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="APELLIDO" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
+        <TextBox Name="textDireccion" HorizontalAlignment="Right" Margin="0,352,10,190" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="DIRECCIÓN" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
+        <TextBox Name="textTelefono"  HorizontalAlignment="Right" Margin="0,0,10,120" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="TELÉFONO" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
+        <TextBox Name="textDni"       HorizontalAlignment="Right" Margin="0,288,10,260" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="DNI" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
+
+    </Grid>
+</Page>
