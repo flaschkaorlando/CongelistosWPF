@@ -81,6 +81,12 @@
     <Compile Include="Materia_Prima.cs">
       <DependentUpon>CongelistosModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Paginas\Compras.xaml.cs">
+      <DependentUpon>Compras.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\MateriaPrima.xaml.cs">
+      <DependentUpon>MateriaPrima.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Paginas\Productos.xaml.cs">
       <DependentUpon>Productos.xaml</DependentUpon>
     </Compile>
@@ -130,7 +136,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Paginas\Insumos.xaml">
+    <Page Include="Paginas\Compras.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Paginas\MateriaPrima.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -150,9 +160,6 @@
   <ItemGroup>
     <Compile Include="Paginas\Clientes.xaml.cs">
       <DependentUpon>Clientes.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Paginas\Insumos.xaml.cs">
-      <DependentUpon>Insumos.xaml</DependentUpon>
     </Compile>
     <Compile Include="Paginas\Pedidos.xaml.cs">
       <DependentUpon>Pedidos.xaml</DependentUpon>

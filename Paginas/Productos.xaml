@@ -16,12 +16,10 @@
 
         <TextBox Name="txtNombre"    HorizontalAlignment="Right" Margin="0,30,10,0" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="40" Width="600" FontSize="20"/>
         <TextBlock HorizontalAlignment="Left" Margin="820,70,0,0" TextWrapping="Wrap" Text="Nombre" TextAlignment="Center" VerticalAlignment="Top" Width="200" Height="30" FontSize="20"/>
-        <TextBox Name="txtUnidadDeMedida"    HorizontalAlignment="Right" Margin="0,112,10,0" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="40" Width="180" FontSize="20"/>
-        <TextBlock HorizontalAlignment="Right" Margin="820,152,10,0" TextWrapping="Wrap" Text="Unidad de medida" TextAlignment="Center" VerticalAlignment="Top" Width="180" Height="30" FontSize="20"/>
         <TextBox Name="txtDescripcion"    HorizontalAlignment="Right" Margin="0,200,10,0" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="296" Width="600" FontSize="20"/>
         <TextBlock HorizontalAlignment="Left" Margin="820,500,0,0" TextWrapping="Wrap" Text="Descripción" TextAlignment="Center" VerticalAlignment="Top" Width="200" Height="30" FontSize="20"/>
-        <TextBox Name="txtPeso"    HorizontalAlignment="Right" Margin="0,112,257,0" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="40" Width="133" FontSize="20"/>
-        <TextBlock HorizontalAlignment="Right" Margin="0,152,257,0" TextWrapping="Wrap" Text="Peso" TextAlignment="Center" VerticalAlignment="Top" Width="133" Height="30" FontSize="20"/>
+        <TextBox Name="txtPeso"    HorizontalAlignment="Right" Margin="0,112,51,0" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="40" Width="133" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,152,51,0" TextWrapping="Wrap" Text="Peso" TextAlignment="Center" VerticalAlignment="Top" Width="133" Height="30" FontSize="20"/>
         <TextBox Name="txtPrecio"    HorizontalAlignment="Right" Margin="0,112,423,0" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="40" Width="150" FontSize="20"/>
         <TextBlock HorizontalAlignment="Right" Margin="0,152,423,0" TextWrapping="Wrap" Text="Precio" TextAlignment="Center" VerticalAlignment="Top" Width="150" Height="30" FontSize="20"/>
         <TextBlock HorizontalAlignment="Right" Margin="0,112,573,0" TextWrapping="Wrap" Text="$" TextAlignment="Center" VerticalAlignment="Top" Width="30" Height="40" FontSize="24" RenderTransformOrigin="0.5,0.5">
@@ -34,7 +32,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock HorizontalAlignment="Right" Margin="0,112,217,0" TextWrapping="Wrap" Text="gr." TextAlignment="Center" VerticalAlignment="Top" Width="40" Height="40" FontSize="24" RenderTransformOrigin="0.5,0.5">
+        <TextBlock HorizontalAlignment="Right" Margin="0,112,11,0" TextWrapping="Wrap" Text="gr." TextAlignment="Center" VerticalAlignment="Top" Width="40" Height="40" FontSize="24" RenderTransformOrigin="0.5,0.5">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

@@ -9,6 +9,27 @@
       Title="Pedidos">
 
     <Grid Background="White">
-        
+        <DataGrid x:Name="dataGridClientes" Opacity="0.7" HorizontalAlignment="Left" Margin="5,10,0,10" Width="600"/>
+        <Button Name="botonNuevo" Content="NUEVO" Margin="620,555,0,5" Width="150" FontSize="20" HorizontalAlignment="Left"/>
+        <Button Name="botonEditar" Content="EDITAR" HorizontalAlignment="Right" Margin="0,0,226,5" VerticalAlignment="Bottom" Width="150" Height="40" FontSize="20" RenderTransformOrigin="0.489,-0.228"/>
+        <Button Name="botonGuardar" Content="GUARDAR" HorizontalAlignment="Right" Margin="0,0,5,5" VerticalAlignment="Bottom" Width="150" Height="40" FontSize="20"/>
+
+        <TextBox Name="txtDescuento"    HorizontalAlignment="Right" Margin="0,358,45,0" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="40" Width="65" FontSize="20"/>
+        <TextBox Name="txtTotal"  HorizontalAlignment="Right" Margin="0,448,10,0" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="40" Width="100" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,398,10,0" TextWrapping="Wrap" Text="Descuento" TextAlignment="Center" VerticalAlignment="Top" Width="100" Height="30" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,488,10,0" TextWrapping="Wrap" Text="Total" TextAlignment="Center" VerticalAlignment="Top" Width="100" Height="30" FontSize="20"/>
+        <DatePicker  Name="dpFechaPedido" HorizontalAlignment="Left" Margin="622,30,0,0" VerticalAlignment="Top" Width="200" Height="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="622,70,0,0" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Top" Width="200" Height="30" FontSize="20"><Run Text="Fecha"/><Run Text=" pedido"/></TextBlock>
+        <DatePicker Name="dpFechaEntrega" HorizontalAlignment="Left" Margin="1011,30,0,0" VerticalAlignment="Top" Width="200" Height="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1011,70,0,0" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Top" Width="200" Height="30" FontSize="20" Text="Fecha entrega"/>
+        <TextBox Name="txtSubTotal"    HorizontalAlignment="Right" Margin="0,358,175,0" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="40" Width="100" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,398,175,0" TextWrapping="Wrap" Text="Subtotal" TextAlignment="Center" VerticalAlignment="Top" Width="100" Height="30" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="922,358,0,0" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Top" Width="30" Height="40" FontSize="24" Text="$"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1087,448,0,0" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Top" Width="30" Height="40" FontSize="24" Text="$"/>
+        <TextBlock HorizontalAlignment="Right" Margin="1192,358,10,0" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Top" Width="30" Height="40" FontSize="24" Text="%"/>
+        <CheckBox Name="cbEntregado" Content="Entregado" HorizontalAlignment="Left" Margin="620,358,0,0" VerticalAlignment="Top" Height="40" Width="150" FontSize="20"/>
+        <TextBox Name="txtObservaciones"    HorizontalAlignment="Right" Margin="0,118,8,0" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="176" Width="600" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="822,296,0,0" TextWrapping="Wrap" Text="Observaciones" TextAlignment="Center" VerticalAlignment="Top" Width="200" Height="30" FontSize="20"/>
+
     </Grid>
 </Page>

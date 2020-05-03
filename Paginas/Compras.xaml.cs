@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Congelistos.Paginas
 {
     /// <summary>
-    /// Lógica de interacción para Insumos.xaml
+    /// Lógica de interacción para Compras.xaml
     /// </summary>
-    public partial class Insumos : Page
+    public partial class Compras : Page
     {
-        public Insumos()
+        public Compras()
         {
             InitializeComponent();
         }
