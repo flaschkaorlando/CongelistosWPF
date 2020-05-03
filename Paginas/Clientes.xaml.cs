@@ -27,21 +27,48 @@ namespace Congelistos.Paginas
 
         private void botonNuevo_Click(object sender, RoutedEventArgs e)
         {
-            textNombre.IsEnabled = true;
-            textNombre.Background = Brushes.White;
+            txtNombre.IsEnabled = true;
+            txtNombre.Background = Brushes.White;
 
-            textApellido.IsEnabled = true;
-            textApellido.Background = Brushes.White;
+            txtApellido.IsEnabled = true;
+            txtApellido.Background = Brushes.White;
 
-            textDni.IsEnabled = true;
-            textDni.Background = Brushes.White;
+            txtDni.IsEnabled = true;
+            txtDni.Background = Brushes.White;
 
-            textDireccion.IsEnabled = true;
-            textDireccion.Background = Brushes.White;
+            txtDireccion.IsEnabled = true;
+            txtDireccion.Background = Brushes.White;
 
-            textTelefono.IsEnabled = true;
-            textTelefono.Background = Brushes.White;
+            txtTelefono.IsEnabled = true;
+            txtTelefono.Background = Brushes.White;
 
+        }
+
+        private void botonGuardar_Click(object sender, RoutedEventArgs e)
+        {
+            if (!String.IsNullOrEmpty(txtNombre.Text.Trim())
+                && !String.IsNullOrEmpty(txtApellido.Text.Trim())
+                && !String.IsNullOrEmpty(txtTelefono.Text.Trim())
+                && !String.IsNullOrEmpty(txtDireccion.Text.Trim()))
+            {
+                using (var cl = new CongelistosEntities())
+                {
+                    var clienteNuevo = new Cliente()
+                    {
+                        Nombre = txtNombre.Text,
+                        Apellido = txtApellido.Text,
+                        Telefono = txtTelefono.Text,
+                        Direccion = txtDireccion.Text
+                    };
+                    cl.Cliente.Add(clienteNuevo);
+                    cl.SaveChanges();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Debe completar todos los campos.", "Atención", 
+                    MessageBoxButton.OKCancel, MessageBoxImage.Information, MessageBoxResult.OK);
+            }
         }
     }
 }

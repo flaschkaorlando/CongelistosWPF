@@ -10,17 +10,15 @@
 
     <Grid Background="Transparent">
         <DataGrid Name="dataGridClientes" Opacity="0.7" HorizontalAlignment="Left" Margin="5,10,0,5" Width="600"/>
-        <Button Name="botonNuevo" Content="NUEVO" HorizontalAlignment="Right" Margin="0,10,5,0" VerticalAlignment="Top" Width="150" Height="40" FontSize="20" Click="botonNuevo_Click"/>
-        <Button Name="botonCargar" Content="CARGAR" HorizontalAlignment="Left" Margin="620,10,0,0" VerticalAlignment="Top" Width="150" Height="40" FontSize="20"/>
-        <Button Name="botonBorrar" Content="BORRAR" HorizontalAlignment="Left" Margin="620,550,0,5" VerticalAlignment="Bottom" Width="150" Height="40" FontSize="20"/>
-        <Button Name="botonEditar" Content="EDITAR" HorizontalAlignment="Right" Margin="0,550,226,5" VerticalAlignment="Bottom" Width="150" Height="40" FontSize="20"/>
-        <Button Name="botonGuardar" Content="GUARDAR" HorizontalAlignment="Right" Margin="0,0,5,5" VerticalAlignment="Bottom" Width="150" Height="40" FontSize="20"/>
+        <Button Name="botonNuevo" Content="NUEVO" Margin="620,555,460,5" Width="150" FontSize="20" Click="botonNuevo_Click" HorizontalAlignment="Left"/>
+        <Button Name="botonEditar" Content="EDITAR" HorizontalAlignment="Right" Margin="0,550,226,5" VerticalAlignment="Bottom" Width="150" Height="40" FontSize="20" RenderTransformOrigin="0.489,-0.228"/>
+        <Button Name="botonGuardar" Content="GUARDAR" HorizontalAlignment="Right" Margin="0,0,5,5" VerticalAlignment="Bottom" Width="150" Height="40" FontSize="20" Click="botonGuardar_Click"/>
 
-        <TextBox Name="textNombre"    HorizontalAlignment="Right" Margin="0,0,10,400" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="NOMBRE" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
-        <TextBox Name="textApellido"  HorizontalAlignment="Right" Margin="0,0,10,330" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="APELLIDO" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
-        <TextBox Name="textDireccion" HorizontalAlignment="Right" Margin="0,352,10,190" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="DIRECCIÓN" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
-        <TextBox Name="textTelefono"  HorizontalAlignment="Right" Margin="0,0,10,120" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="TELÉFONO" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
-        <TextBox Name="textDni"       HorizontalAlignment="Right" Margin="0,288,10,260" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="DNI" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
+        <TextBox Name="txtNombre"    HorizontalAlignment="Right" Margin="0,0,10,400" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="NOMBRE" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
+        <TextBox Name="txtApellido"  HorizontalAlignment="Right" Margin="0,0,10,330" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="APELLIDO" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
+        <TextBox Name="txtDireccion" HorizontalAlignment="Right" Margin="0,352,10,190" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="DIRECCIÓN" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
+        <TextBox Name="txtTelefono"  HorizontalAlignment="Right" Margin="0,0,10,120" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="TELÉFONO" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
+        <TextBox Name="txtDni"       HorizontalAlignment="Right" Margin="0,288,10,260" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="DNI" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
 
     </Grid>
 </Page>
