@@ -9,6 +9,17 @@
       Title="Proveedores">
 
     <Grid Background="White">
-        
+        <DataGrid x:Name="dataGridClientes" Opacity="0.7" HorizontalAlignment="Left" Margin="5,10,0,10" Width="600"/>
+
+        <TextBox x:Name="txtNombre"    HorizontalAlignment="Right" Margin="0,30,10,0" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="40" Width="600" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="820,70,0,0" TextWrapping="Wrap" Text="Nombre" TextAlignment="Center" VerticalAlignment="Top" Width="200" Height="30" FontSize="20"/>
+        <TextBox x:Name="txtTelefono"    HorizontalAlignment="Right" Margin="0,112,10,0" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="40" Width="600" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="820,152,0,0" TextWrapping="Wrap" Text="Teléfono" TextAlignment="Center" VerticalAlignment="Top" Width="200" Height="30" FontSize="20"/>
+        <TextBox x:Name="txtDireccion"    HorizontalAlignment="Right" Margin="0,190,10,0" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="40" Width="600" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="820,230,0,0" TextWrapping="Wrap" Text="Dirección" TextAlignment="Center" VerticalAlignment="Top" Width="200" Height="30" FontSize="20"/>
+        <Button Name="botonNuevo" Content="NUEVO" Margin="620,555,0,5" Width="150" FontSize="20"  HorizontalAlignment="Left"/>
+        <Button Name="botonEditar" Content="EDITAR" HorizontalAlignment="Right" Margin="0,0,226,5" VerticalAlignment="Bottom" Width="150" Height="40" FontSize="20" RenderTransformOrigin="0.489,-0.228"/>
+        <Button Name="botonGuardar" Content="GUARDAR" HorizontalAlignment="Right" Margin="0,0,5,5" VerticalAlignment="Bottom" Width="150" Height="40" FontSize="20" />
+
     </Grid>
 </Page>

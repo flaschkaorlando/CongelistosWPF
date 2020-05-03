@@ -8,17 +8,22 @@
       d:DesignHeight="600" d:DesignWidth="1232"
       Title="Clientes">
 
-    <Grid Background="Transparent">
-        <DataGrid Name="dataGridClientes" Opacity="0.7" HorizontalAlignment="Left" Margin="5,10,0,5" Width="600"/>
+    <Grid Background="White">
+        <DataGrid Name="dataGridClientes" Opacity="0.7" HorizontalAlignment="Left" Margin="5,10,0,10" Width="600"/>
         <Button Name="botonNuevo" Content="NUEVO" Margin="620,555,460,5" Width="150" FontSize="20" Click="botonNuevo_Click" HorizontalAlignment="Left"/>
         <Button Name="botonEditar" Content="EDITAR" HorizontalAlignment="Right" Margin="0,550,226,5" VerticalAlignment="Bottom" Width="150" Height="40" FontSize="20" RenderTransformOrigin="0.489,-0.228"/>
         <Button Name="botonGuardar" Content="GUARDAR" HorizontalAlignment="Right" Margin="0,0,5,5" VerticalAlignment="Bottom" Width="150" Height="40" FontSize="20" Click="botonGuardar_Click"/>
 
-        <TextBox Name="txtNombre"    HorizontalAlignment="Right" Margin="0,0,10,400" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="NOMBRE" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
-        <TextBox Name="txtApellido"  HorizontalAlignment="Right" Margin="0,0,10,330" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="APELLIDO" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
-        <TextBox Name="txtDireccion" HorizontalAlignment="Right" Margin="0,352,10,190" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="DIRECCIÓN" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
-        <TextBox Name="txtTelefono"  HorizontalAlignment="Right" Margin="0,0,10,120" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="TELÉFONO" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
-        <TextBox Name="txtDni"       HorizontalAlignment="Right" Margin="0,288,10,260" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="DNI" TextAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="600" FontSize="20"/>
+        <TextBox Name="txtNombre"    HorizontalAlignment="Right" Margin="0,30,10,516" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="40" Width="600" FontSize="20"/>
+        <TextBox Name="txtApellido"  HorizontalAlignment="Right" Margin="0,120,10,0" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="40" Width="600" FontSize="20"/>
+        <TextBox Name="txtDireccion" HorizontalAlignment="Right" Margin="0,300,10,0" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="40" Width="600" FontSize="20"/>
+        <TextBox Name="txtTelefono"  HorizontalAlignment="Right" Margin="0,390,10,0" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="40" Width="600" FontSize="20"/>
+        <TextBox Name="txtDni"       HorizontalAlignment="Right" Margin="0,210,10,0" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="40" Width="600" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="820,70,0,0" TextWrapping="Wrap" Text="Nombre" TextAlignment="Center" VerticalAlignment="Top" Width="200" Height="30" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="820,160,0,0" TextWrapping="Wrap" Text="Apellido" TextAlignment="Center" VerticalAlignment="Top" Width="200" Height="30" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="820,250,0,0" TextWrapping="Wrap" Text="DNI" TextAlignment="Center" VerticalAlignment="Top" Width="200" Height="30" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="820,340,0,0" TextWrapping="Wrap" Text="Dirección" TextAlignment="Center" VerticalAlignment="Top" Width="200" Height="30" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="820,430,0,0" TextWrapping="Wrap" Text="Teléfono" TextAlignment="Center" VerticalAlignment="Top" Width="200" Height="30" FontSize="20"/>
 
     </Grid>
 </Page>
