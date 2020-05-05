@@ -5,13 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Congelistos"
         mc:Ignorable="d"
-        Title="MainWindow" Height="720" Width="1280" WindowState="Maximized">
+        Title="CongeListos" Height="720" Width="1280" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Icon="Imagenes/LogoEditado.png">
 
     <Grid Name="vGridGeneral" >
 
         <Grid.Background>
             <ImageBrush ImageSource="/Imagenes/LogoEditado.png" Stretch="Uniform" Opacity="1"/>
         </Grid.Background>
+        
         <Frame  Name="framePrincipal"   Margin="20,0,20,20"     Height="600" VerticalAlignment="Bottom"/>
 
         <Button Name="botonClientes"        Content="Clientes"      HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top" Width="180" Height="50" FontSize="20" Style="{DynamicResource BotonGeneral}" Click="botonClientes_Click"/>

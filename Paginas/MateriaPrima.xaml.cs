@@ -24,5 +24,10 @@ namespace Congelistos.Paginas
         {
             InitializeComponent();
         }
+
+        private void botonNuevo_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

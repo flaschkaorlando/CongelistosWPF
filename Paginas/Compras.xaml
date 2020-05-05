@@ -13,7 +13,6 @@
 
         <TextBox Name="txtDescripcion"    HorizontalAlignment="Right" Margin="0,128,10,0" TextWrapping="Wrap"  IsEnabled="False"  Background="LightGray"    Text="" TextAlignment="Center" VerticalAlignment="Top" Height="185" Width="600" FontSize="20"/>
         <TextBlock HorizontalAlignment="Left" Margin="820,314,0,0" TextWrapping="Wrap" Text="Descripción" TextAlignment="Center" VerticalAlignment="Top" Width="200" Height="30" FontSize="20"/>
-        <Button Name="botonNuevo" Content="NUEVO" Margin="620,555,0,5" Width="150" FontSize="20"  HorizontalAlignment="Left"/>
         <Button Name="botonEditar" Content="EDITAR" HorizontalAlignment="Right" Margin="0,0,226,5" VerticalAlignment="Bottom" Width="150" Height="40" FontSize="20" RenderTransformOrigin="0.489,-0.228"/>
         <Button Name="botonGuardar" Content="GUARDAR" HorizontalAlignment="Right" Margin="0,0,5,5" VerticalAlignment="Bottom" Width="150" Height="40" FontSize="20" />
         <DatePicker HorizontalAlignment="Left" Margin="622,30,0,0" VerticalAlignment="Top" Width="150" Height="40"/>
@@ -32,6 +31,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
+        <Button x:Name="botonNuevo" Content="NUEVO" Margin="620,0,0,5" Width="150" FontSize="20"  HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="40"/>
 
     </Grid>
 </Page>
