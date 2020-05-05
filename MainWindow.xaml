@@ -13,11 +13,13 @@
             <ImageBrush ImageSource="/Imagenes/LogoEditado.png" Stretch="Uniform" Opacity="1"/>
         </Grid.Background>
         <Frame  Name="framePrincipal"   Margin="20,0,20,20"     Height="600" VerticalAlignment="Bottom"/>
-        <Button Name="botonClientes"    Content="Clientes"      HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Top" Width="200" Height="50" FontSize="20" Style="{DynamicResource BotonGeneral}" Click="botonClientes_Click"/>
-        <Button Name="botonPedidos"     Content="Pedidos"       HorizontalAlignment="Left" Margin="291,10,0,0" VerticalAlignment="Top" Width="200" Height="50" FontSize="20" Style="{DynamicResource BotonGeneral}" Click="botonPedidos_Click"/>
-        <Button Name="botonInsumos"     Content="Insumos"       HorizontalAlignment="Right" Margin="0,10,271,0" VerticalAlignment="Top" Width="200" Height="50" FontSize="20" Style="{DynamicResource BotonGeneral}" Click="botonInsumos_Click"/>
-        <Button Name="botonProveedores" Content="Proveedores"   HorizontalAlignment="Right" Margin="0,10,25,0" VerticalAlignment="Top" Width="200" Height="50" FontSize="20" Style="{DynamicResource BotonGeneral}" Click="botonProveedores_Click"/>
-        <Button Name="botonProductos"   Content="Productos"       HorizontalAlignment="Left" Margin="555,10,0,0" VerticalAlignment="Top" Width="200" Height="50" FontSize="20" Style="{DynamicResource BotonGeneral}"/>
+
+        <Button Name="botonClientes"        Content="Clientes"      HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top" Width="180" Height="50" FontSize="20" Style="{DynamicResource BotonGeneral}" Click="botonClientes_Click"/>
+        <Button Name="botonPedidos"         Content="Pedidos"       HorizontalAlignment="Left" Margin="230,10,0,0" VerticalAlignment="Top" Width="180" Height="50" FontSize="20" Style="{DynamicResource BotonGeneral}" Click="botonPedidos_Click"/>
+        <Button Name="botonMateriaPrima"    Content="Materia Prima" HorizontalAlignment="Right" Margin="0,10,230,0" VerticalAlignment="Top" Width="180" Height="50" FontSize="20" Style="{DynamicResource BotonGeneral}" Click="botonMateriaPrima_Click" />
+        <Button Name="botonProveedores"     Content="Proveedores"   HorizontalAlignment="Right" Margin="0,10,20,0" VerticalAlignment="Top" Width="180" Height="50" FontSize="20" Style="{DynamicResource BotonGeneral}" Click="botonProveedores_Click"/>
+        <Button Name="botonProductos"       Content="Productos"     HorizontalAlignment="Left" Margin="440,10,0,0" VerticalAlignment="Top" Width="180" Height="50" FontSize="20" Style="{DynamicResource BotonGeneral}" Click="botonProductos_Click"/>
+        <Button Name="botonCompras"         Content="Compras"       HorizontalAlignment="Right" Margin="0,10,440,0" VerticalAlignment="Top" Width="180" Height="50" FontSize="20" Style="{DynamicResource BotonGeneral}" Click="botonCompras_Click" />
 
 
     </Grid>
